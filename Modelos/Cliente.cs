@@ -1,6 +1,6 @@
 ﻿namespace comex.Modelos;
 
-internal class Cliente
+internal class Cliente: IIdentificavel
 {
     public string Nome { get; set; }
     public string Cpf { get; set; }
@@ -8,6 +8,12 @@ internal class Cliente
     public string Profissao { get; set; }
     public string Telefone { get; set; }
     public Endereco Endereco { get; set; }
+
+    public void Identificar()
+    {
+        Console.WriteLine("Nome do Cliente: " + Nome);
+        Console.WriteLine("CPF do Cliente: " + Cpf);
+    }
 
     public void MostraCliente()
     {
@@ -23,4 +29,6 @@ internal class Cliente
         Console.WriteLine("Rua: " + Endereco.Rua);
         Console.WriteLine("Número: " + Endereco.Numero);
     }
+
+    
 }
