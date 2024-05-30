@@ -9,5 +9,5 @@ internal class Produto
     public Produto(string nome)
     {
         Nome = nome;
-    }    
+    }
 }
