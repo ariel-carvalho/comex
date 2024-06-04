@@ -2,12 +2,17 @@
 
 internal class Cliente: IIdentificavel
 {
-    public string Nome { get; set; }
+    public string Nome { get; }
     public string Cpf { get; set; }
     public string Email { get; set; }
     public string Profissao { get; set; }
     public string Telefone { get; set; }
     public Endereco Endereco { get; set; }
+
+    public Cliente(string nome)
+    {
+        Nome = nome;
+    }
 
     public void Identificar()
     {
@@ -30,5 +35,8 @@ internal class Cliente: IIdentificavel
         Console.WriteLine("Número: " + Endereco.Numero);
     }
 
-    
+    public override string ToString()
+    {
+        return Nome;
+    }
 }

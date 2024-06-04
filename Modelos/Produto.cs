@@ -5,20 +5,22 @@ namespace comex.Modelos;
 internal class Produto : IIdentificavel
 {
     [JsonPropertyName("id")]
-    public int Id { get; set; }
+    public int Id { get; }
     [JsonPropertyName("title")]
     public string Nome { get; }
     [JsonPropertyName("price")]
-    public double Preco { get; set; }
+    public double Preco { get; }
     [JsonPropertyName("count")]
-    public int Quantidade { get; set; }
+    public int Quantidade { get; }
 
 
     public static List<string> produtos = new List<string>();
 
-    public Produto(string nome)
+    public Produto(string nome, double preco, int quantidade)
     {
         Nome = nome;
+        Preco = preco;
+        Quantidade = quantidade;
     }
 
     public void ExibirProduto()
@@ -32,5 +34,10 @@ internal class Produto : IIdentificavel
     public virtual void Identificar()
     {
 
+    }
+
+    public override string ToString()
+    {
+        return Nome;
     }
 }

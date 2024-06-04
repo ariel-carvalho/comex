@@ -5,7 +5,7 @@ internal class Livro : Produto
     public string Isbn { get; }
     public int TotalDePaginas { get; }
 
-    public Livro(string nome) : base(nome)
+    public Livro(string nome, double preco, int quantidade) : base(nome, preco, quantidade)
     {
         
     }
