@@ -1,4 +1,6 @@
-﻿namespace comex.Modelos;
+﻿using System;
+
+namespace comex.Modelos;
 
 internal class Cliente: IIdentificavel
 {
@@ -20,6 +22,7 @@ internal class Cliente: IIdentificavel
         Console.WriteLine("CPF do Cliente: " + Cpf);
     }
 
+  
     public void MostraCliente()
     {
         Console.WriteLine("Nome: " + Nome);

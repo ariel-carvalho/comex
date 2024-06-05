@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using comex.Ordenacoes;
+using System.Linq;
 using System.Threading.Channels;
 
 namespace comex.Modelos;
@@ -7,8 +8,11 @@ internal class Pedido
 {
     public Cliente Cliente {  get; }
     public DateTime Data { get; }
+
     public List<ItemDePedido> Itens = new List<ItemDePedido>();
     public decimal Total { get; set; }
+
+    public static List<Pedido> ListaDePedidos = new List<Pedido>();
 
     public Pedido(Cliente cliente, DateTime data)
     {
@@ -39,16 +43,38 @@ internal class Pedido
         {
             Console.WriteLine(item);
         }
+
+    }
+
+    public void AdcionarPedidoNaLista(Pedido pedido)
+    {
+        ListaDePedidos.Add(pedido);
+    }
+
+    public static void ListarPedidos()
+    {    
+        var pedidos = ListaDePedidos;
+        LinqOrder.OrdenarPedidosPorCliente(pedidos);
+    }
+
+    public static decimal CalculaTotalDaListaDePedidos()
+    {
+        decimal total = 0;
+
+        foreach (var listaDePedidos in ListaDePedidos)
+        {
+            total += listaDePedidos.CalculaTotal();
+        }
+
+        return total;
     }
 
     public override string ToString()
     {
-        Console.WriteLine($"Cliente\n{Cliente}\n");
-        Console.WriteLine($"Data\n{Data}\n");
-        Console.WriteLine("Itens ");
+        Console.WriteLine($"\nCliente: {Cliente} - Data: {Data}");
         ListarItens();
-        return $"\nTotal\n{CalculaTotal()}\n";
-
-
+        return $"Total: {CalculaTotal()}";
     }
+
+   
 }

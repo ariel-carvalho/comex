@@ -13,7 +13,7 @@ internal class ItemDePedido
         Quantidade = quantidade;
         PrecoUnitario = precoUnitario;
     }
-    
+
     public decimal CalculaSubtotal()
     {
         Subtotal = Quantidade * PrecoUnitario;

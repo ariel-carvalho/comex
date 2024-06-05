@@ -5,7 +5,7 @@ internal class Eletronico: Produto
     public int Voltagem { get; set; }
     public int Potencia { get; set; }
 
-    public Eletronico(string nome, double preco, int quantidade) : base(nome, preco, quantidade)
+    public Eletronico(string nome, int quantidade, decimal preco) : base(nome, quantidade, preco)
     {
         
     }

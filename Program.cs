@@ -30,15 +30,5 @@ using System.Text.Json;
 //}
 #endregion
 
-ItemDePedido itemDePedido1 = new ItemDePedido(new Produto("Produto 1", 10, 5), 1, 2);
-ItemDePedido itemDePedido2 = new ItemDePedido(new Produto("Produto 2", 20, 10), 2, 4);
-ItemDePedido itemDePedido3 = new ItemDePedido(new Produto("Produto 3", 40, 20), 4, 8);
-
-Pedido pedido1 = new Pedido(new Cliente("Cliente 1"), DateTime.Now);
-pedido1.AdcionarItem(itemDePedido1);
-pedido1.AdcionarItem(itemDePedido2);
-pedido1.AdcionarItem(itemDePedido3);
-pedido1.CalculaTotal();
-
-Console.WriteLine(pedido1);
-
+MenuPrincipal menuPrincipal = new MenuPrincipal();
+menuPrincipal.Executar();

@@ -11,15 +11,15 @@ internal class MenuCriarProduto: MenuPrincipal
         
         Console.WriteLine("\nDigite o preço do produto:");
         string lePrecoProduto = Console.ReadLine()!;
-        double lePrecoProdutoNumerico = double.Parse(lePrecoProduto);
+        decimal lePrecoProdutoNumerico = decimal.Parse(lePrecoProduto);
 
         Console.WriteLine("\nDigite a quantidade do produto:");
         string leQuantidadeProduto = Console.ReadLine()!;
         int leQuantidadeProdutoNumerico = int.Parse(leQuantidadeProduto);
 
-        Produto produto = new Produto(leNomeProduto, lePrecoProdutoNumerico, leQuantidadeProdutoNumerico);
-        Produto.produtos.Add(produto.Nome);
-        Console.WriteLine("Produto Criado com Sucesso!");
+        Produto produto = new Produto(leNomeProduto, leQuantidadeProdutoNumerico, lePrecoProdutoNumerico);
+        Produto.Produtos.Add(produto.Nome);
+        Console.WriteLine("\nProduto Criado com Sucesso!");
         Thread.Sleep(1000);
         Console.Clear();
     }

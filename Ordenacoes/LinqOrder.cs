@@ -23,4 +23,15 @@ internal class LinqOrder
             Console.WriteLine($"Produto: {produto.Nome} - Preço: {produto.Preco}");
         }
     }
+
+    public static void OrdenarPedidosPorCliente(List<Pedido> pedidos)
+    {
+        var pedidosOrdenados = pedidos.OrderBy(pedido => pedido.Cliente.Nome).ToList();
+        Console.WriteLine("Lista de Pedidos Ordenados Por Cliente:");
+
+        foreach (var pedido in pedidosOrdenados)
+        {
+            Console.WriteLine(pedido);
+        }
+    }
 }

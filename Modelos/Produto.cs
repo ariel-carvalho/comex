@@ -9,18 +9,18 @@ internal class Produto : IIdentificavel
     [JsonPropertyName("title")]
     public string Nome { get; }
     [JsonPropertyName("price")]
-    public double Preco { get; }
+    public decimal Preco { get; }
     [JsonPropertyName("count")]
     public int Quantidade { get; }
 
 
-    public static List<string> produtos = new List<string>();
+    public static List<string> Produtos = new List<string>();
 
-    public Produto(string nome, double preco, int quantidade)
+    public Produto(string nome, int quantidade, decimal preco)
     {
         Nome = nome;
-        Preco = preco;
         Quantidade = quantidade;
+        Preco = preco;        
     }
 
     public void ExibirProduto()
@@ -34,6 +34,14 @@ internal class Produto : IIdentificavel
     public virtual void Identificar()
     {
 
+    }
+
+    public static void ListarProdutos()
+    {
+        foreach (string produto in Produtos)
+        {
+            Console.WriteLine($"Produto: {produto}");
+        }
     }
 
     public override string ToString()
