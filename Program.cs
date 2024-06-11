@@ -30,5 +30,5 @@ using System.Text.Json;
 //}
 #endregion
 
-MenuPrincipal menuPrincipal = new MenuPrincipal();
-menuPrincipal.Executar();
+new MenuPrincipal().Executar();
+
