@@ -1,0 +1,109 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "comex_Modelos/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/comex_Modelos.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/comex_Modelos.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "comex_Modelos/1.0.0": {
+      "sha512": "dQEL42bL6KwczmwsaU8NPqhzgOGIZk/ppCyURzmZ6BKDGKwMz1YsjS4fV93SgHU2MhC5hzfzY6+u64Yflfmf/A==",
+      "type": "package",
+      "path": "comex_modelos/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "comex_modelos.1.0.0.nupkg.sha512",
+        "comex_modelos.nuspec",
+        "lib/net8.0/comex_Modelos.dll",
+        "lib/net8.0/comex_Modelos.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "comex_Modelos >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ariel\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\Comex_Nuget\\Comex_Nuget.csproj",
+      "projectName": "Comex_Nuget",
+      "projectPath": "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\Comex_Nuget\\Comex_Nuget.csproj",
+      "packagesPath": "C:\\Users\\ariel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\Comex_Nuget\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ariel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "comex_Modelos": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

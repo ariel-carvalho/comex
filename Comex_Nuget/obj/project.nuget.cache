@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CciVk2P07dw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\Comex_Nuget\\Comex_Nuget.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ariel\\.nuget\\packages\\comex_modelos\\1.0.0\\comex_modelos.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

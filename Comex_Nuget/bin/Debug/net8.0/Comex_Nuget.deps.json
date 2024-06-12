@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Comex_Nuget/1.0.0": {
+        "dependencies": {
+          "comex_Modelos": "1.0.0"
+        },
+        "runtime": {
+          "Comex_Nuget.dll": {}
+        }
+      },
+      "comex_Modelos/1.0.0": {
+        "runtime": {
+          "lib/net8.0/comex_Modelos.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Comex_Nuget/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "comex_Modelos/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dQEL42bL6KwczmwsaU8NPqhzgOGIZk/ppCyURzmZ6BKDGKwMz1YsjS4fV93SgHU2MhC5hzfzY6+u64Yflfmf/A==",
+      "path": "comex_modelos/1.0.0",
+      "hashPath": "comex_modelos.1.0.0.nupkg.sha512"
+    }
+  }
+}

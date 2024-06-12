@@ -1,0 +1,13 @@
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\comex\comex_Modelos\bin\Debug\net8.0\Comex.Modelos.deps.json
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\comex\comex_Modelos\bin\Debug\net8.0\Comex.Modelos.dll
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\comex\comex_Modelos\bin\Debug\net8.0\Comex.Modelos.pdb
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\comex\comex_Modelos\bin\Debug\net8.0\Comex.Modelos.xml
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\comex\comex_Modelos\obj\Debug\net8.0\Comex.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\comex\comex_Modelos\obj\Debug\net8.0\Comex.Modelos.AssemblyInfoInputs.cache
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\comex\comex_Modelos\obj\Debug\net8.0\Comex.Modelos.AssemblyInfo.cs
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\comex\comex_Modelos\obj\Debug\net8.0\Comex.Modelos.csproj.CoreCompileInputs.cache
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\comex\comex_Modelos\obj\Debug\net8.0\Comex.Modelos.dll
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\comex\comex_Modelos\obj\Debug\net8.0\refint\Comex.Modelos.dll
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\comex\comex_Modelos\obj\Debug\net8.0\Comex.Modelos.xml
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\comex\comex_Modelos\obj\Debug\net8.0\Comex.Modelos.pdb
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\comex\comex_Modelos\obj\Debug\net8.0\ref\Comex.Modelos.dll

@@ -1,0 +1,17 @@
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\Comex_Nuget\bin\Debug\net8.0\Comex_Nuget.exe
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\Comex_Nuget\bin\Debug\net8.0\Comex_Nuget.deps.json
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\Comex_Nuget\bin\Debug\net8.0\Comex_Nuget.runtimeconfig.json
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\Comex_Nuget\bin\Debug\net8.0\Comex_Nuget.dll
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\Comex_Nuget\bin\Debug\net8.0\Comex_Nuget.pdb
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\Comex_Nuget\bin\Debug\net8.0\comex_Modelos.dll
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\Comex_Nuget\obj\Debug\net8.0\Comex_Nuget.csproj.AssemblyReference.cache
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\Comex_Nuget\obj\Debug\net8.0\Comex_Nuget.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\Comex_Nuget\obj\Debug\net8.0\Comex_Nuget.AssemblyInfoInputs.cache
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\Comex_Nuget\obj\Debug\net8.0\Comex_Nuget.AssemblyInfo.cs
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\Comex_Nuget\obj\Debug\net8.0\Comex_Nuget.csproj.CoreCompileInputs.cache
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\Comex_Nuget\obj\Debug\net8.0\Comex_Nu.7992587E.Up2Date
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\Comex_Nuget\obj\Debug\net8.0\Comex_Nuget.dll
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\Comex_Nuget\obj\Debug\net8.0\refint\Comex_Nuget.dll
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\Comex_Nuget\obj\Debug\net8.0\Comex_Nuget.pdb
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\Comex_Nuget\obj\Debug\net8.0\Comex_Nuget.genruntimeconfig.cache
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\Comex_Nuget\obj\Debug\net8.0\ref\Comex_Nuget.dll
