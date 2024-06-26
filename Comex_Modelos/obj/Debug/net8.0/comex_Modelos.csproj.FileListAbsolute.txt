@@ -25,3 +25,4 @@ C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\comex\comex_Modelos\obj\Deb
 C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\comex\comex_Modelos\obj\Debug\net8.0\comex_Modelos.pdb
 C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\comex\comex_Modelos\obj\Debug\net8.0\ref\comex_Modelos.dll
 C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\comex\comex_Modelos\obj\Debug\net8.0\Comex_Modelos.sourcelink.json
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\comex\comex_Modelos\obj\Debug\net8.0\Comex_Modelos.csproj.AssemblyReference.cache

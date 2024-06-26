@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Comex.Testes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0294c8a79d0d8a858f080629f8cdc13ddad91b4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4f0f5eb32122cb9ed6d5644407e8793c3a7fa8e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Comex.Testes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Comex.Testes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -7,9 +7,11 @@
     <authors>Ariel</authors>
     <description>Um pacote para a aplicação Comex.</description>
     <copyright>Aplicação de Código Aberto</copyright>
-    <repository type="git" url="https://github.com/ariel-carvalho/comex/tree/Semana8-ArielCarvalho" commit="c0294c8a79d0d8a858f080629f8cdc13ddad91b4" />
+    <repository type="git" url="https://github.com/ariel-carvalho/comex/tree/Semana8-ArielCarvalho" commit="c4f0f5eb32122cb9ed6d5644407e8793c3a7fa8e" />
     <dependencies>
-      <group targetFramework="net8.0" />
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.Data.SqlClient" version="5.2.1" exclude="Build,Analyzers" />
+      </group>
     </dependencies>
   </metadata>
   <files>

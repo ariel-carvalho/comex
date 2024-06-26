@@ -5,7 +5,7 @@ namespace Comex_Modelos.Modelos;
 public class Produto : IIdentificavel
 {
     [JsonPropertyName("id")]
-    public int Id { get; }
+    public int Id { get; set; }
     [JsonPropertyName("title")]
     public string Nome { get; }
     [JsonPropertyName("price")]
@@ -44,8 +44,14 @@ public class Produto : IIdentificavel
         }
     }
 
+    //public override string ToString()
+    //{
+    //    return Nome;
+    //}
+
     public override string ToString()
     {
-        return Nome;
+        return $"ID: {Id} - Nome: {Nome} - Preço {Preco} - Quantidade: {Quantidade}";
+       
     }
 }
