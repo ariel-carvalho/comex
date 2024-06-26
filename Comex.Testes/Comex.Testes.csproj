@@ -18,7 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Comex\Comex.csproj" />
-    <ProjectReference Include="..\comex_Modelos\Comex.Modelos.csproj" />
+    <ProjectReference Include="..\comex_Modelos\Comex_Modelos.csproj" />
   </ItemGroup>
 
   <ItemGroup>

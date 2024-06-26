@@ -1,6 +1,6 @@
-﻿using Comex.Modelos.Modelos;
+﻿using Comex_Modelos.Modelos;
 
-namespace Comex.Modelos.Menus;
+namespace Comex_Modelos.Menus;
 
 internal class MenuListarPedido : MenuPrincipal
 {
@@ -10,5 +10,7 @@ internal class MenuListarPedido : MenuPrincipal
         Pedido.ListarPedidos();
         Console.WriteLine($"\nTotal Geral: {Pedido.CalculaTotalDaListaDePedidos()}");
         Console.WriteLine("");
+        Console.WriteLine("Presione uma tecla para voltar ao menu principal");
+        Console.ReadKey();
     }
 }

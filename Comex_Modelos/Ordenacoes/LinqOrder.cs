@@ -1,6 +1,6 @@
-﻿using Comex.Modelos.Modelos;
+﻿using Comex_Modelos.Modelos;
 
-namespace Comex.Modelos.Ordenacoes;
+namespace Comex_Modelos.Ordenacoes;
 
 internal class LinqOrder
 {

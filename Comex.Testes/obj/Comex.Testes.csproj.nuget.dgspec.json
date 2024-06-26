@@ -31,8 +31,8 @@
               "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\comex\\Comex\\Comex.csproj": {
                 "projectPath": "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\comex\\Comex\\Comex.csproj"
               },
-              "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\comex\\comex_Modelos\\Comex.Modelos.csproj": {
-                "projectPath": "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\comex\\comex_Modelos\\Comex.Modelos.csproj"
+              "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\comex\\comex_Modelos\\Comex_Modelos.csproj": {
+                "projectPath": "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\comex\\comex_Modelos\\Comex_Modelos.csproj"
               }
             }
           }
@@ -113,8 +113,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\comex\\comex_Modelos\\Comex.Modelos.csproj": {
-                "projectPath": "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\comex\\comex_Modelos\\Comex.Modelos.csproj"
+              "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\comex\\comex_Modelos\\Comex_Modelos.csproj": {
+                "projectPath": "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\comex\\comex_Modelos\\Comex_Modelos.csproj"
               }
             }
           }
@@ -153,12 +153,12 @@
         }
       }
     },
-    "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\comex\\comex_Modelos\\Comex.Modelos.csproj": {
+    "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\comex\\comex_Modelos\\Comex_Modelos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\comex\\comex_Modelos\\Comex.Modelos.csproj",
-        "projectName": "Comex.Modelos",
-        "projectPath": "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\comex\\comex_Modelos\\Comex.Modelos.csproj",
+        "projectUniqueName": "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\comex\\comex_Modelos\\Comex_Modelos.csproj",
+        "projectName": "Comex_Modelos",
+        "projectPath": "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\comex\\comex_Modelos\\Comex_Modelos.csproj",
         "packagesPath": "C:\\Users\\ariel\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\comex\\comex_Modelos\\obj\\",
         "projectStyle": "PackageReference",

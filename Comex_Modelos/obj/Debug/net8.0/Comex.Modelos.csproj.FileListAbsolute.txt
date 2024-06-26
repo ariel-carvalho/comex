@@ -11,3 +11,4 @@ C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\comex\comex_Modelos\obj\Deb
 C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\comex\comex_Modelos\obj\Debug\net8.0\Comex.Modelos.xml
 C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\comex\comex_Modelos\obj\Debug\net8.0\Comex.Modelos.pdb
 C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\comex\comex_Modelos\obj\Debug\net8.0\ref\Comex.Modelos.dll
+C:\Users\ariel\Documents\Curso-GTI\Trilha 5\Projetos\comex\comex_Modelos\obj\Debug\net8.0\Comex.Modelos.sourcelink.json

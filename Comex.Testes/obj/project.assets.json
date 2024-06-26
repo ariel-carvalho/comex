@@ -1713,7 +1713,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "Comex.Modelos": "1.0.0"
+          "Comex_Modelos": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Comex.dll": {}
@@ -1722,14 +1722,14 @@
           "bin/placeholder/Comex.dll": {}
         }
       },
-      "Comex.Modelos/1.0.0": {
+      "Comex_Modelos/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Comex.Modelos.dll": {}
+          "bin/placeholder/Comex_Modelos.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Comex.Modelos.dll": {}
+          "bin/placeholder/Comex_Modelos.dll": {}
         }
       }
     }
@@ -5526,16 +5526,16 @@
       "path": "../Comex/Comex.csproj",
       "msbuildProject": "../Comex/Comex.csproj"
     },
-    "Comex.Modelos/1.0.0": {
+    "Comex_Modelos/1.0.0": {
       "type": "project",
-      "path": "../comex_Modelos/Comex.Modelos.csproj",
-      "msbuildProject": "../comex_Modelos/Comex.Modelos.csproj"
+      "path": "../comex_Modelos/Comex_Modelos.csproj",
+      "msbuildProject": "../comex_Modelos/Comex_Modelos.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Comex >= 1.0.0",
-      "Comex.Modelos >= 1.0.0",
+      "Comex_Modelos >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
       "coverlet.collector >= 6.0.0",
       "xunit >= 2.5.3",
@@ -5572,8 +5572,8 @@
             "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\comex\\Comex\\Comex.csproj": {
               "projectPath": "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\comex\\Comex\\Comex.csproj"
             },
-            "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\comex\\comex_Modelos\\Comex.Modelos.csproj": {
-              "projectPath": "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\comex\\comex_Modelos\\Comex.Modelos.csproj"
+            "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\comex\\comex_Modelos\\Comex_Modelos.csproj": {
+              "projectPath": "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\comex\\comex_Modelos\\Comex_Modelos.csproj"
             }
           }
         }

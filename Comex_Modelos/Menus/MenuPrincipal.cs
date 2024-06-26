@@ -1,6 +1,4 @@
-﻿using Comex.Modelos.Menus;
-
-namespace Comex.Modelos.Menus;
+﻿namespace Comex_Modelos.Menus;
 
 /// <summary>
 /// Classe que comtém o método executar que cria o menu principal
@@ -20,7 +18,6 @@ public class MenuPrincipal
         Console.Clear();
 
         Dictionary<int, MenuPrincipal> opcao = new();
-        opcao.Add(0, new MenuPrincipal());
         opcao.Add(1, new MenuCriarProduto());
         opcao.Add(2, new MenuListarProduto());
         opcao.Add(3, new MenuListarProdutosDaApiExterna());

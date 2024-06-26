@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Comex.Modelos.Modelos;
+namespace Comex_Modelos.Modelos;
 
 public class Produto : IIdentificavel
 {
@@ -14,7 +14,7 @@ public class Produto : IIdentificavel
     public int Quantidade { get; }
 
 
-    public static List<string> Produtos = new List<string>();
+    public static List<string> Produtos = new();
 
     public Produto(string nome, int quantidade, decimal preco)
     {

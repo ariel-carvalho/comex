@@ -1,6 +1,6 @@
-﻿using Comex.Modelos.Modelos;
+﻿using Comex_Modelos.Modelos;
 
-namespace Comex.Modelos.Menus;
+namespace Comex_Modelos.Menus;
 
 internal class MenuCriarProduto : MenuPrincipal
 {

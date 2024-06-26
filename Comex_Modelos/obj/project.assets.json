@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\comex\\comex_Modelos\\Comex.Modelos.csproj",
-      "projectName": "Comex.Modelos",
-      "projectPath": "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\comex\\comex_Modelos\\Comex.Modelos.csproj",
+      "projectUniqueName": "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\comex\\comex_Modelos\\Comex_Modelos.csproj",
+      "projectName": "Comex_Modelos",
+      "projectPath": "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\comex\\comex_Modelos\\Comex_Modelos.csproj",
       "packagesPath": "C:\\Users\\ariel\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\comex\\comex_Modelos\\obj\\",
       "projectStyle": "PackageReference",

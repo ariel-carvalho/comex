@@ -1,6 +1,6 @@
-﻿using Comex.Modelos.Ordenacoes;
+﻿using Comex_Modelos.Ordenacoes;
 
-namespace Comex.Modelos.Modelos;
+namespace Comex_Modelos.Modelos;
 
 internal class Pedido
 {

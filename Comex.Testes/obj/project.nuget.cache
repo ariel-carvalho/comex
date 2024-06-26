@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tBKQH6mupdA=",
+  "dgSpecHash": "oOFV3BtUNp8=",
   "success": true,
   "projectFilePath": "C:\\Users\\ariel\\Documents\\Curso-GTI\\Trilha 5\\Projetos\\comex\\Comex.Testes\\Comex.Testes.csproj",
   "expectedPackageFiles": [
@@ -92,7 +92,8 @@
     "C:\\Users\\ariel\\.nuget\\packages\\xunit.core\\2.5.3\\xunit.core.2.5.3.nupkg.sha512",
     "C:\\Users\\ariel\\.nuget\\packages\\xunit.extensibility.core\\2.5.3\\xunit.extensibility.core.2.5.3.nupkg.sha512",
     "C:\\Users\\ariel\\.nuget\\packages\\xunit.extensibility.execution\\2.5.3\\xunit.extensibility.execution.2.5.3.nupkg.sha512",
-    "C:\\Users\\ariel\\.nuget\\packages\\xunit.runner.visualstudio\\2.5.3\\xunit.runner.visualstudio.2.5.3.nupkg.sha512"
+    "C:\\Users\\ariel\\.nuget\\packages\\xunit.runner.visualstudio\\2.5.3\\xunit.runner.visualstudio.2.5.3.nupkg.sha512",
+    "C:\\Users\\ariel\\.nuget\\packages\\comex_modelos\\1.0.0\\comex_modelos.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }

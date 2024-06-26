@@ -5,9 +5,9 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Comex", "Comex.csproj", "{95574057-9457-47B8-A914-9169017018F3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Comex.Modelos", "..\comex_Modelos\Comex.Modelos.csproj", "{73E7797E-5F67-4002-9848-59DE7FDBA8F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Comex_Modelos", "..\comex_Modelos\Comex_Modelos.csproj", "{73E7797E-5F67-4002-9848-59DE7FDBA8F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comex.Testes", "..\Comex.Testes\Comex.Testes.csproj", "{C6B23D68-73CA-41FD-AE52-2423144AA888}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Comex.Testes", "..\Comex.Testes\Comex.Testes.csproj", "{C6B23D68-73CA-41FD-AE52-2423144AA888}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

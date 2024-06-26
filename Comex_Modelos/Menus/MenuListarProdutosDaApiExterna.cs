@@ -1,8 +1,8 @@
 ﻿using System.Text.Json;
-using Comex.Modelos.Modelos;
-using Comex.Modelos.Ordenacoes;
+using Comex_Modelos.Modelos;
+using Comex_Modelos.Ordenacoes;
 
-namespace Comex.Modelos.Menus;
+namespace Comex_Modelos.Menus;
 
 internal class MenuListarProdutosDaApiExterna : MenuPrincipal
 {
@@ -13,20 +13,20 @@ internal class MenuListarProdutosDaApiExterna : MenuPrincipal
 
     async Task ListarProdutosDaApiExterna()
     {
-        using (HttpClient client = new HttpClient())
+        HttpClient client = new HttpClient();
+        
+        try
         {
-            try
-            {
-                string resposta = await client.GetStringAsync("https://fakestoreapi.com/products");
-                var produtos = JsonSerializer.Deserialize<List<Produto>>(resposta)!;
+            string resposta = await client.GetStringAsync("https://fakestoreapi.com/products");
+            var produtos = JsonSerializer.Deserialize<List<Produto>>(resposta)!;
 
-                LinqOrder.OrdenarProdutosPorNome(produtos);
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Algo deu errado! " + ex.Message);
-            }
+            LinqOrder.OrdenarProdutosPorNome(produtos);
         }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Algo deu errado! " + ex.Message);
+        }
+        
 
         Console.WriteLine("Digite uma tecla para voltar ao menu principal:");
         Console.ReadKey();

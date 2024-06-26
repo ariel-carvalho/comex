@@ -7,7 +7,7 @@
     <authors>Ariel</authors>
     <description>Um pacote para a aplicação Comex.</description>
     <copyright>Aplicação de Código Aberto</copyright>
-    <repository type="git" url="https://github.com/ariel-carvalho/comex/tree/Semana8-ArielCarvalho" />
+    <repository type="git" url="https://github.com/ariel-carvalho/comex/tree/Semana8-ArielCarvalho" commit="c0294c8a79d0d8a858f080629f8cdc13ddad91b4" />
     <dependencies>
       <group targetFramework="net8.0" />
     </dependencies>

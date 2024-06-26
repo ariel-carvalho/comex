@@ -1,4 +1,4 @@
-﻿namespace Comex.Modelos.Modelos;
+﻿namespace Comex_Modelos.Modelos;
 
 internal class Livro : Produto
 {
