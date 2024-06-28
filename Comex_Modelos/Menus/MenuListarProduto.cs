@@ -7,19 +7,11 @@ internal class MenuListarProduto : MenuPrincipal
 {
     public async override Task Executar()
     {
-        //Console.Clear();
-        //Console.WriteLine("Lista de Produtos:");
-        //Produto.ListarProdutos();
-        //Console.WriteLine("");
-        //Console.WriteLine("Presione uma tecla para voltar ao menu principal");
-        //Console.ReadKey();
-
         try
         {
             Console.WriteLine("\nLista de Produtos:\n");
-
-            var connection = new ProdutoDAL();
-            var listaProdutos = connection.Listar();
+                        
+            var listaProdutos = new ProdutoDAL().Listar();
 
             foreach (var produto in listaProdutos)
             {

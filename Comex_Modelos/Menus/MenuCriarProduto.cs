@@ -1,4 +1,5 @@
-﻿using Comex_Modelos.Modelos;
+﻿using Comex_Modelos.Banco;
+using Comex_Modelos.Modelos;
 
 namespace Comex_Modelos.Menus;
 
@@ -18,7 +19,9 @@ internal class MenuCriarProduto : MenuPrincipal
         int leQuantidadeProdutoNumerico = int.Parse(leQuantidadeProduto);
 
         Produto produto = new Produto(leNomeProduto, leQuantidadeProdutoNumerico, lePrecoProdutoNumerico);
-        Produto.Produtos.Add(produto.Nome);
+
+        new ProdutoDAL().Adicionar(produto);
+        
         Console.WriteLine("\nProduto Criado com Sucesso!");
         Thread.Sleep(1000);
         Console.Clear();

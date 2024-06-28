@@ -20,18 +20,22 @@ public class MenuPrincipal
         Dictionary<int, MenuPrincipal> opcao = new();
         opcao.Add(1, new MenuCriarProduto());
         opcao.Add(2, new MenuListarProduto());
-        opcao.Add(3, new MenuListarProdutosDaApiExterna());
-        opcao.Add(4, new MenuCriarPedido());
-        opcao.Add(5, new MenuListarPedido());
-        opcao.Add(6, new MenuSair());
+        opcao.Add(3, new MenuAtualizarProduto());
+        opcao.Add(4, new MenuDeletarProduto());
+        opcao.Add(5, new MenuListarProdutosDaApiExterna());
+        opcao.Add(6, new MenuCriarPedido());
+        opcao.Add(7, new MenuListarPedido());
+        opcao.Add(8, new MenuSair());
 
         Console.WriteLine("Escolha uma opção:");
         Console.WriteLine("1 - Criar Produto");
         Console.WriteLine("2 - Listar Produtos");
-        Console.WriteLine("3 - Listar Produtos da API Externa");
-        Console.WriteLine("4 - Criar Pedido");
-        Console.WriteLine("5 - Listar Pedidos");
-        Console.WriteLine("6 - Sair\n");
+        Console.WriteLine("3 - Atualizar Produto");
+        Console.WriteLine("4 - Deletar Produto");
+        Console.WriteLine("5 - Listar Produtos da API Externa");
+        Console.WriteLine("6 - Criar Pedido");
+        Console.WriteLine("7 - Listar Pedidos");
+        Console.WriteLine("8 - Sair\n");
         string leOpcao = Console.ReadLine()!;
         int leOpcaoNumerica = int.Parse(leOpcao);
 
@@ -40,7 +44,7 @@ public class MenuPrincipal
             MenuPrincipal menuPrincipal = opcao[leOpcaoNumerica];
             await menuPrincipal.Executar();
 
-            if (leOpcaoNumerica != 6)
+            if (leOpcaoNumerica != 8)
             {
                 await Executar();
             }

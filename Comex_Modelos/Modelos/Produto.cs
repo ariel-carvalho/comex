@@ -23,6 +23,11 @@ public class Produto : IIdentificavel
         Preco = preco;
     }
 
+    public Produto(int id)
+    {
+        Id = id;
+    }
+
     public void ExibirProduto()
     {
         Console.WriteLine("ID: " + Id);
