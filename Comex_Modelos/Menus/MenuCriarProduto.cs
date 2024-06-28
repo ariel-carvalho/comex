@@ -20,7 +20,8 @@ internal class MenuCriarProduto : MenuPrincipal
 
         Produto produto = new Produto(leNomeProduto, leQuantidadeProdutoNumerico, lePrecoProdutoNumerico);
 
-        new ProdutoDAL().Adicionar(produto);
+        var context = new ComexContext();
+        new ProdutoDAL(context).Adicionar(produto);
         
         Console.WriteLine("\nProduto Criado com Sucesso!");
         Thread.Sleep(1000);

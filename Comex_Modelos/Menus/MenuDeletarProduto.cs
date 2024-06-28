@@ -11,8 +11,10 @@ internal class MenuDeletarProduto : MenuPrincipal
         string leIdProduto = Console.ReadLine()!;
         int leIdProdutoNumerico = int.Parse(leIdProduto);
 
-        Produto produto = new Produto(leIdProdutoNumerico);
-        new ProdutoDAL().Deletar(produto);
+        Produto produto = new Produto("", 0, 0) { Id = leIdProdutoNumerico };
+
+        var context = new ComexContext();
+        new ProdutoDAL(context).Deletar(produto);
         
         Console.WriteLine("\nProduto Deletado com Sucesso!");
         Thread.Sleep(1000);

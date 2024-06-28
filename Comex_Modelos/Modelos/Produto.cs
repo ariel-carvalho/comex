@@ -7,12 +7,11 @@ public class Produto : IIdentificavel
     [JsonPropertyName("id")]
     public int Id { get; set; }
     [JsonPropertyName("title")]
-    public string Nome { get; }
+    public string Nome { get; set; }
     [JsonPropertyName("price")]
-    public decimal Preco { get; }
+    public decimal Preco { get; set; }
     [JsonPropertyName("count")]
-    public int Quantidade { get; }
-
+    public int Quantidade { get; set; }
 
     public static List<string> Produtos = new();
 
@@ -21,12 +20,7 @@ public class Produto : IIdentificavel
         Nome = nome;
         Quantidade = quantidade;
         Preco = preco;
-    }
-
-    public Produto(int id)
-    {
-        Id = id;
-    }
+    }    
 
     public void ExibirProduto()
     {
@@ -48,11 +42,6 @@ public class Produto : IIdentificavel
             Console.WriteLine($"Produto: {produto}");
         }
     }
-
-    //public override string ToString()
-    //{
-    //    return Nome;
-    //}
 
     public override string ToString()
     {

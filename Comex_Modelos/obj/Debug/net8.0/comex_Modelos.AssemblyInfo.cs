@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Aplicação de Código Aberto")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Um pacote para a aplicação Comex.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9b97a37d3db0f23e78f49138fbd638deb33d342")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a93a303a77d42b2a58c08f8b2024084547992f76")]
 [assembly: System.Reflection.AssemblyProductAttribute("Comex")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Comex_Modelos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

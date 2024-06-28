@@ -10,8 +10,9 @@ internal class MenuListarProduto : MenuPrincipal
         try
         {
             Console.WriteLine("\nLista de Produtos:\n");
-                        
-            var listaProdutos = new ProdutoDAL().Listar();
+
+            var context = new ComexContext();
+            var listaProdutos = new ProdutoDAL(context).Listar();
 
             foreach (var produto in listaProdutos)
             {

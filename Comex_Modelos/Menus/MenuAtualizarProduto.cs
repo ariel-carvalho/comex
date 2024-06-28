@@ -24,7 +24,8 @@ internal class MenuAtualizarProduto : MenuPrincipal
 
         Produto produto = new Produto(leNomeProduto, leQuantidadeProdutoNumerico, lePrecoProdutoNumerico) { Id = leIdProdutoNumerico }; ;
 
-        new ProdutoDAL().Atualizar(produto);
+        var context = new ComexContext(); 
+        new ProdutoDAL(context).Atualizar(produto);
         
         Console.WriteLine("\nProduto Atualizado com Sucesso!");
         Thread.Sleep(1000);
